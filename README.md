@@ -1,6 +1,12 @@
 # Yazılım Mühendisliğinde Gelişmeler-1
 > Bu repoda Yazılım Mühendisliğinde Gelişmeler-1 dersine ait projeler ve çalışmalar yer alacaktır
 
+>Projede yapılanlar ve verilen görevlerin detaylıca anlatıldığı 
+> yer CalculatorRestApi klasörünün içindeki readme dosyasındadır
+> yani CalculatorRestApi dosyasına tıklarsanız yapılanları anlatan 
+> readme dosyasını görebilirsiniz 
+> 
+> 
 ### Ders İçeriği aşağıdaki gibidir 
 
 1. Açık kaynak yazılım kavramına giriş

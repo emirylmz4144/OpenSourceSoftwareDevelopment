@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  calculator:
+    image: calculator-rapi # Docker imajımızın adı
+    build: .  # Dockerfile'ın bulunduğu dizin
+    ports:
+      - "3434:8080"  # Konteynerdeki 8080 portunu, dışarıya 3434 portu üzerinden erişilebilir yapıyoruz
+    volumes:
+      - OpenSourceSoftwareDevelopment/CalculatorRestApi:/app  # Yerel klasörü GitHub repo klasörü ile bağlamak için. GitHub'dan ilgili repo indirilecek
+    environment:
+      - SPRING_PROFILES_ACTIVE=default
+    restart: always  # Konteynerin bir hata sonrası otomatik olarak yeniden başlatılmasını sağlar
+
